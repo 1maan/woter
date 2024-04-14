@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_top_nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 70px;
+    gap: 20px;
+    background-color: #ffffff;
+    z-index: 20000;
+}
+.main_top_nav_bar_div_one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    pointer-events: none;
+    user-select: none;
+}
+.main_top_nav_bar_logo{
+    width: 35px;
+}
+.main_top_nav_bar_logo_text{
+    width: 65px;
+}
+.main_top_nav_bar_ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+.main_top_nav_bar_a{
+    font-size: 15px;
+    text-wrap: nowrap;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #717171;
+    font-family: "Varela Round", sans-serif;
+    font-style: normal;
+}
+.main_top_nav_bar_a:hover{
+    color: #4b4b4b;
+    background-color: #9b9b9b12;
+}
+.main_top_nav_bar_a_active{
+    font-weight: 500;
+    color: #222222;
+}
+.main_top_nav_bar_a_active:hover{
+    color: #222222;
+    background-color: transparent;
+}
+.main_top_nav_bar_div_three{
+    display: flex;
+    align-items: center;
+}
+.main_top_nav_bar_three_woterbnb-your-home{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #232323;
+    text-wrap: nowrap;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+.main_top_nav_bar_three_woterbnb-your-home:hover{
+    background-color: #9b9b9b12;
+}
+.main_top_nav_bar_three_globe{
+    width: 33px;
+    padding: 6px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
+}
+.main_top_nav_bar_three_globe:hover{
+    background-color: #9b9b9b12;
+    border-radius: 50%;
+}
+.main_top_nav_bar_three_profile_btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #c9c8c8;
+    background-color: transparent;
+    margin-left: 15px;
+    border-radius: 50px;
+    width: 85px;
+    padding: 3px;
+    justify-content: center;
+    padding-left: 10px;
+    position: relative;
+}
+.main_top_nav_bar_three_profile_btn_in_div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-around;
+}
+
+.main_top_nav_bar_three_profile_btn:hover{
+    box-shadow: 0 3px 3px #c9c8c8b3;
+    transition: 0.1s ease-in;
+    -o-transition:  0.1s ease-in;
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -ms-transform: 0.1s ease-in;
+}
+.main_top_nav_bar_three_menu_def_images{
+    pointer-events: none;
+    width: 17px;
+}
+.main_top_nav_bar_three_profile_def_images{
+    pointer-events: none;
+    width: 30px;
+}
+
+
+
+
+
+
+
+.main_top_nav_bar_three_profile_btn_drop_div{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    right: 0;
+    top: 45px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #dadada;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1000;
+}
+.main_top_nav_bar_three_profile_btn_drop_text{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #222222;
+    font-family: "Varela Round", sans-serif;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+}
+.main_top_nav_bar_three_profile_btn_drop_text:hover{
+    background-color: #ebf0ffa1;
+}
+.line_space{
+    height: 2px;
+    width: 100%;
+    background-color: #e3e3e3;
+}
+.main_top_nav_bar_three_profile_btn_drop_div_avt{
+    display: none;
+}
+.main_top_nav_bar_three_profile_btn_drop_div_avt:checked ~ .main_top_nav_bar_three_profile_btn_drop_div{
+    display: flex;
+}
+
+
+@media screen and (max-width:890px) {
+    .main_top_nav_bar_logo_text{
+        display: none;
+    }
+}
+@media screen and (max-width:780px) {
+    .main_top_nav_bar_div_two{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        background-color: #ffffff;
+    }
+    .main_top_nav_bar{
+        padding: 0 10px;
+    }
+    .main_top_nav_bar_three_profile_btn{
+        margin-left: 10px;
+    }
+    .main_top_nav_bar_three_woterbnb-your-home{
+        padding: 10px;
+    }
+}
+
+.allcenter{
+    display: flex;
+    justify-content: center;
+}
+.allcentermain{
+    max-width: 1080px;
+    width: 100%;
+}
+
+
+/*
+primary: #460479
+active: #380360
+disabled: #C7B3D6
+*/
+

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.all_places_filters-imgs{
+    margin: 20px 10px 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all_places_filters-imgs-in{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 24% 24% 24% 24%;
+    row-gap: 15px;
+    column-gap: 1%;
+}
+.all_places_filters_main_div_als{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.main_search_bottom_filter_all_types_div_all_button_left_img_two,
+.main_search_bottom_filter_all_types_div_all_button_right_img_two{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c2c2c2;
+    padding: 5px;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+.all_places_filters_img_slider_left_btn{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    left: 5px;
+    transition: 0.3s;
+    scale: 1;
+}
+.all_places_filters_img_slider_right_btn{
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    right: 5px;
+    transition: 0.3s;
+    scale: 1;
+}
+.all_places_filters_img_slider_left_btn:hover,
+.all_places_filters_img_slider_right_btn:hover{
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.all_places_filters_img_slider{
+    border-radius: 10px;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    overflow: scroll;
+}
+
+
+.all_places_filters_main_div_img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.all_places_filters_main_div_img_sctive{
+    scroll-snap-align: center;
+}
+.all_places_filters_img_slider::-webkit-scrollbar {
+    display: none;
+}
+.all_places_filters_img_slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.all_places_filters_img_slider_title_div{
+    margin-top: 5px;
+}
+.all_places_filters_img_slider_title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+}
+.all_places_filters_img_slider_km{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #8f8f8f;
+}
+
+
+
+@media screen and (max-width:750px) {
+    .all_places_filters-imgs-in{
+        grid-template-columns: 32.33% 32.33% 32.33%;
+    } 
+}
+
+@media screen and (max-width:550px) {
+    .all_places_filters-imgs-in{
+        grid-template-columns: 49% 49% ;
+    } 
+}
+@media screen and (max-width:490px) {
+    .all_places_filters-imgs-in{
+        grid-template-columns: 100% ;
+    } 
+}

@@ -1,0 +1,62 @@
+let places = [
+    {
+        name:"Arotic",
+        img:"./img/opct/8b44f770-7156-4c7b-b4d3-d92549c8652f",
+    },
+    {
+        name:"Beach",
+        img:"./img/opct/10ce1091-c854-40f3-a2fb-defc2995bcaf",
+    },
+    {
+        name:"Island",
+        img:"./img/opct/8e507f16-4943-4be9-b707-59bd38d56309",
+    },
+    {
+        name:"Trending",
+        img:"./img/opct/3726d94b-534a-42b8-bca0-a0304d912260",
+    },
+    {
+        name:"Luxe",
+        img:"./img/opct/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4",
+    },
+    {
+        name:"Campers",
+        img:"./img/opct/31c1d523-cc46-45b3-957a-da76c30c85f9",
+    },
+    {
+        name:"Amazing pools",
+        img:"./img/opct/3fb523a0-b622-4368-8142-b5e03df7549b",
+    },
+    {
+        name:"OMG!",
+        img:"./img/opct/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6",
+    },
+    {
+        name:"Amazing views",
+        img:"./img/opct/3b1eb541-46d9-4bef-abc4-c37d77e3c21b",
+    },
+    {
+        name:"Design",
+        img:"./img/opct/50861fca-582c-4bcc-89d3-857fb7ca6528",
+    },
+    {
+        name:"Surfing",
+        img:"./img/opct/957f8022-dfd7-426c-99fd-77ed792f6d7a",
+    },
+    {
+        name:"Bed & breakfasts",
+        img:"./img/opct/5ed8f7c7-2e1f-43a8-9a39-4edfc81a3325",
+    },
+    {
+        name:"Caves",
+        img:"./img/opct/4221e293-4770-4ea8-a4fa-9972158d4004",
+    },
+    {
+        name:"New",
+        img:"./img/opct/c0fa9598-4e37-40f3-b734-4bd0e2377add",
+    },
+    {
+        name:"Camping",
+        img:"./img/opct/ca25c7f3-0d1f-432b-9efa-b9f5dc6d8770",
+    },
+]
