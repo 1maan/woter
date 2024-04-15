@@ -287,3 +287,15 @@ all_places_filters_img_slider_right_btn.forEach(img_slider_right_btn => {
 })
 
 
+
+let main_login_pop = document.querySelector(".all_float_div_login_bg")
+let signupbnt_login = document.querySelectorAll(".signupbnt_login")
+let spacegivclose = document.querySelector(".spacegivclose")
+signupbnt_login.forEach(signupbnt_log => {
+    signupbnt_log.addEventListener("click",()=>{
+        main_login_pop.style.display = "flex"
+    })
+});
+spacegivclose.addEventListener("click",()=>{
+    main_login_pop.style.display = "none"
+})
